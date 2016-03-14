@@ -1,0 +1,31 @@
+body {
+	background-color: rgb(222,222,222);
+	width: 0 auto
+}
+
+#graybackground {
+	background-colo: rgb(222, 222, 222);
+	width: 0 auto;
+	margin: 15px;
+	padding: 10px, 5px ;
+}
+#anchor_text { 
+	background-color: black;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid;
+}
+
+.cssParagraphColor {
+	background-color: black;
+	border: 3px solid black;
+	width: 0 auto;
+	margin: 15px;
+	padding: 10px, 5px ;
+}
+
+
+.cssmainTextClassPractice {
+	color: white;
+}

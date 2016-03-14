@@ -1,4 +1,7 @@
 body {
+	height: 600px
+	width: 300px;
 	background-color: rgb(39, 40, 34);
+	background: linear-gradient(to top right,rgb(39,40,34),rgb(159,159,159));
 	color: rgb(251, 207, 4);
 }
