@@ -1,0 +1,76 @@
+body {
+
+}
+
+.container {
+	width: 720px; 
+	padding: 54px;
+	color: #444444;
+	margin: auto 0;
+	font-family: Lato;
+	line-height: 1.5;
+	font-weight: 300;
+}
+h1 {
+	color:red;
+	font-size: 48px;
+	font-weight: 300;
+}
+
+h2 {
+	color: black;
+	font-size: 32px;
+	font-weight: 300;
+}
+
+.navi a {
+	color: gray;
+	padding: 5px;
+}
+
+.navi a:hover {
+	color: black;
+}
+
+p {
+	color: gray;
+	text-align: justify;
+}
+
+.content {
+	color: #cccccc;
+	font-size: 34px;
+	font-weight: 300;
+}
+.conlink {
+	color: red;
+	font-style: bold;
+	text-align: right;
+	font-weight: 700;
+}
+
+.conlink a {
+	text-decoration: none; 
+	color:red; 
+}
+
+.conlink a:hover {
+	color: black;
+}
+
+footer {
+	padding: 5px;
+}
+
+footer a {
+	color: red;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: black;
+}
+
+img {
+	max-width: 100%;
+}
