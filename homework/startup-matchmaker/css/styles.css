@@ -1,0 +1,121 @@
+
+
+/*#container {*/
+/*  width: 1000px;
+  margin: auto;
+  font-family: Oswald, sans-serif;
+  background-color: gray;
+}*/
+
+body { 
+background-color: white;
+margin: 30px 30px 30px 30px;
+
+}
+
+header {
+background-color: black;
+padding: 15px 15px;
+border-bottom: 5px solid yellow;
+overflow: auto;
+}
+
+h1 {
+color: yellow;
+float: left;
+text-align: center;
+}
+
+/*vertically aligning divs within their parent containers*/
+
+nav {
+float: right;
+margin-top: 10px;
+}
+
+nav a {
+text-decoration: none;
+color: white;
+font-family: 'Source sans Pro', serif;
+font-size: 26px;
+text-align: center;
+}
+
+
+p {
+background-color: rgb(198, 198, 198);
+font-family: 'Merriweather', serif;
+font-style: italic;
+color: black;
+height: 65px;
+text-align: center;
+margin: 0px;
+vertical-align: center;
+}
+
+
+
+#main {
+background-image: url(../img/coworking.jpg);
+background-size: cover;
+vertical-align: center;
+height: 300px;
+border: 10px solid red;
+position: static;
+}
+
+/*move image up*/
+
+
+.maintext {
+background-color: rgba(255, 255, 255, .7);
+/*border: 10px solid black;*/
+float: right;
+display: inline-block;
+width: 300px;
+height: 200px;
+margin: 25px 25px 25px 25px; 
+/*border: 10px solid red;*/
+padding: 15px 15px 15px 15px;
+}
+
+button {
+background-color: yellow;
+padding: 10px 10px;
+font-family: 'source pro sans', serif;
+width: 100%;
+/*border: rgba(232, 223, 220);*/
+}
+
+.clear {
+clear: both;
+}
+
+section { 
+/*border-top: 2px solid black;*/
+}
+
+.articletext {
+display: block;
+width: 300px;
+height: 250px;
+margin: 10px;
+/*border: 10px solid red;*/
+}
+
+.artbuts {
+background-color: rgb(198, 198, 198);
+color: black;
+font-family: 'source pro sans', serif;
+width: 100px;
+}
+
+footer {
+background-color: black;
+padding: 15px 15px;
+margin: 10px 10px 10px 10px; 
+color: white;
+text-align: left;
+font-family: 'source sans pro', serif;
+
+}
