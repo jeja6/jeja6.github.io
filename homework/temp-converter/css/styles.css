@@ -1,0 +1,40 @@
+body { 
+height: 100%;
+width: 100%;
+margin: 20px 20px 20px 20px;
+padding: 300px;
+color: black;
+}
+
+h1 {
+font-family: Calibri;
+text-align: left;
+}
+.celci {
+background-color: rgb(177,255,122);
+height: 300px;
+width:250px;
+display: inline-block;
+
+}
+
+#c {
+margin: 20px 20px 20px 20px;
+}
+
+
+.faren { 
+background-color: rgb(251,159,255); 
+height: 300px;
+width: 250px;
+display: inline-block;
+}
+
+#f {
+margin: 20px 20px 20px 20px;
+}
+
+button {
+font-style: bold
+font-family: Calibri;
+}
