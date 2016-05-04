@@ -1,0 +1,38 @@
+body {
+	font-family: 'Calibri', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	cursor: default;
+	background-color: #f0efef;
+}
+
+p {
+margin: 90px; 
+color: red;
+display: inline-block;
+}
+
+p a {
+	float: right;
+	color: green;
+	padding: 10px;
+}
+
+.region {
+	text-decoration: none;
+	display: inline;
+	margin: 0px;
+}
+
+.tempo {
+	text-decoration: none;
+	display: inline;
+	margin: 0px;
+}
+
+.year {
+	text-decoration: none;
+	display: inline
+	margin: 0px;
+}
+

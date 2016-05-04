@@ -1,0 +1,42 @@
+
+
+
+
+body { 
+	background-color: rgb(233, 163, 4);
+	font-family: calibri-light; 
+	font-size: 24px;
+}
+
+
+
+.container {
+	background-color: (233, 163, 4);
+}
+
+h1 {
+	font-size: 24px;
+	color: black;
+	position: center;
+}
+
+
+
+ul li {
+	color: red;
+	text-decoration: none;
+}
+
+li a {
+	color: green;
+	text-decoration: none;
+	display: inline-block;
+	text-align: right;
+}
+
+.adUnit {
+	position: right;
+	text-align: right;
+	
+}
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SoundSync</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class='logo'></div>
+	<div class="nav">
+		<p><a href="main.html">Home Page</p>
+		<p><a href="rocky.html">A$AP Rocky</p>
+		<p><a href="bigsean.html">Big Sean</p>
+		<p><a href="drake.html">Drake</p>
+	</div>
+
+	<div id="wrapper">
+		<h1>Sync your next tune:</h1>
+		<div>
+			<select name="region">
+				<option value="East">East</option>
+				<option value="MidWest">West</option>
+				<option value="North>">MidWest<option>
+			</select>
+		</div>
+
+		<div class="tempo">
+			<select name="Rhythm">
+				<option value="Slow">Slow</option>
+				<option value="Medium">Medium</option>
+				<option value="Fast">Fast</option>
+			</select>
+		</div>
+
+		<div class="year">
+			<select name="Date">
+				<option value="Early">2000 - 2005</option>
+				<option value="Middle">2005 - 2010</option>
+				<option value="Recent">2010 - Present</option>
+			</select>
+		</div>
+
+		<div class="result">You're Synced with...
+			<div id="scWidget"></div>
+		</div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+<script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
