@@ -1,37 +1,52 @@
+body {
+	padding: 0;
+	margin: auto 0;	
+	background-color: rgb(64,52,64);
 
-
-
-
-body { 
-	background-color: rgb(233, 163, 4);
-	font-family: calibri-light; 
-	font-size: 24px;
 }
 
-
-
 .container {
-	background-color: (233, 163, 4);
+	width: 100%;
+	font-family: Calibri;
+	line-height: 2;
+	font-weight: 300;
+	background-color: rgb(64,52,64);
+}
+
+.navi a{
+	color: rgb(127,113,106);
+	text-decoration: none;
+	font-size: 32px;
+	text-align: right;
+}
+
+.navi a:hover {
+	color: rgb(255,104,34);
 }
 
 h1 {
-	font-size: 24px;
+	font-size: 40px;
+	color: rgb(255,104,34);
+	font-weight: 300;
+}
+
+
+h2 {
+	color: rgb(127,113,106);
+}
+
+.content {
+	color: white;
+}
+
+
+p a{
+	color: rgb(255,104,34);
+	text-decoration: none;
+}
+
+p a:hover {
 	color: black;
-	position: center;
-}
-
-
-
-ul li {
-	color: red;
-	text-decoration: none;
-}
-
-li a {
-	color: green;
-	text-decoration: none;
-	display: inline-block;
-	text-align: right;
 }
 
 .adUnit {

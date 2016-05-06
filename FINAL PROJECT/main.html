@@ -5,45 +5,60 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div class='logo'></div>
-	<div class="nav">
-		<p><a href="main.html">Home Page</p>
-		<p><a href="rocky.html">A$AP Rocky</p>
-		<p><a href="bigsean.html">Big Sean</p>
-		<p><a href="drake.html">Drake</p>
-	</div>
+	<div class="container"></div>
+		<header id="page-header">
+			<div class="wrapper">
+				<h1 class="topHeader">SoundSync</h1>
+				<p class="soundSync">Where your ears and heart connect</p>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="rocky.html">A$AP Rocky</a></li>
+						<li><a href="bigsean.html">Big Sean</a></li>
+						<li><a href="drake.html">Drake</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
 
-	<div id="wrapper">
-		<h1>Sync your next tune:</h1>
-		<div>
-			<select name="region">
-				<option value="East">East</option>
-				<option value="MidWest">West</option>
-				<option value="North>">MidWest<option>
-			</select>
-		</div>
+		<h2>Sync your next tune:</h2>
+			<div id="region">
+				<div>
+					<select name="region">
+						<option value="East">East</option>
+						<option value="MidWest">West</option>
+						<option value="North>">MidWest<option>
+					</select>
+				</div>
+			</div>
 
-		<div class="tempo">
-			<select name="Rhythm">
-				<option value="Slow">Slow</option>
-				<option value="Medium">Medium</option>
-				<option value="Fast">Fast</option>
-			</select>
-		</div>
+			
 
-		<div class="year">
-			<select name="Date">
-				<option value="Early">2000 - 2005</option>
-				<option value="Middle">2005 - 2010</option>
-				<option value="Recent">2010 - Present</option>
-			</select>
-		</div>
+			<div class="tempo">
+				<select name="Rhythm">
+					<option value="Slow">Slow</option>
+					<option value="Medium">Medium</option>
+					<option value="Fast">Fast</option>
+				</select>
+			</div>
+
+			<div class="year">
+				<select name="Date">
+					<option value="Early">2000 - 2005</option>
+					<option value="Middle">2005 - 2010</option>
+					<option value="Recent">2010 - Present</option>
+				</select>
+			
+
+				<button id="sync">Sync!</button>
+				<h2 id="output"></h2>
+			</div>
 
 		<div class="result">You're Synced with...
 			<div id="scWidget"></div>
 		</div>
 
-</div>
+
 
 <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
 <script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
