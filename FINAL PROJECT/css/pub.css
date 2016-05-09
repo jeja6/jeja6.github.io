@@ -1,7 +1,6 @@
 body {
 	padding: 0;
 	margin: auto 0;	
-	/*background-color: rgb(64,52,64);*/
 	font-family: 'Muli', sans-serif;
 	background: url("../images/uni-ver-se.jpg");
     background-repeat: repeat;
@@ -13,7 +12,6 @@ body {
 	font-family: 'Muli', sans-serif;
 	line-height: 2;
 	font-weight: 300;
-	/*background-color: rgb(64,52,64);*/
 	text-align: center;
 }
 
