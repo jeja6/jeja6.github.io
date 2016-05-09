@@ -1,23 +1,28 @@
 body {
 	padding: 0;
 	margin: auto 0;	
-	background-color: rgb(64,52,64);
+	/*background-color: rgb(64,52,64);*/
+	font-family: 'Muli', sans-serif;
+	background: url("../images/uni-ver-se.jpg");
+    background-repeat: repeat;
 
 }
 
 .container {
 	width: 100%;
-	font-family: Calibri;
+	font-family: 'Muli', sans-serif;
 	line-height: 2;
 	font-weight: 300;
-	background-color: rgb(64,52,64);
+	/*background-color: rgb(64,52,64);*/
+	text-align: center;
 }
 
 .navi a{
-	color: rgb(127,113,106);
+	color: white;
 	text-decoration: none;
 	font-size: 32px;
 	text-align: right;
+	padding: 2px 8px;
 }
 
 .navi a:hover {
@@ -32,7 +37,7 @@ h1 {
 
 
 h2 {
-	color: rgb(127,113,106);
+	color: rgb(64,48,117);
 }
 
 .content {
@@ -50,8 +55,9 @@ p a:hover {
 }
 
 .adUnit {
-	position: right;
-	text-align: right;
+	position: center;
+	text-align: center;
+	
 	
 }
 

@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+	<title>test2</title>
+</head>
+<body>
+	<iframe class="iframe"
+            width="100%"
+            height="465"
+            scrolling="no"
+            frameborder="no"
+            src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/76067623&amp;auto_play=false&amp;hide_related=true&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true'>
+    </iframe>
+
+ <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+        <!-- <script src="https://w.soundcloud.com/player/api.js"></script>
+        <script src="http://connect.soundcloud.com/sdk.js"></script> -->
+        <script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
+    	<script src="sc.js"></script>
+</body>
+</html>
+
+
+
+ $(document).ready(function()
+
+
+SC.initialize({
+  client_id: '6150dd7ff5335b40c8d9faaf7e7c4644'
+});
+
+$(document).ready(function() {
+  SC.get('/tracks', { genres: 'rap' }, function(tracks) {
+    $(tracks).each(function(index, track) {
+      $('#results').append($('<li></li>').html(track.title + ' - ' + track.genre));
+    });
+  });
+});
+
+
+// 	SC.initialize({
+//   client_id: '6150dd7ff5335b40c8d9faaf7e7c4644'
+// });
+
+// var track_url = 'https://soundcloud.com/asvpxrocky';
+// SC.oEmbed(track_url, { auto_play: true }).then(function(oEmbed) {
+//   console.log('oEmbed response: ', oEmbed);
+// });
+
+	// SC.initialize({
+	//   client_id: '6150dd7ff5335b40c8d9faaf7e7c4644'
+	// });
+
+	// // stream track id 293
+	// SC.stream('/tracks/293').then(function(player){
+	//   player.play();
+
+	//   var scWidget = document.getElementById(scWidget)
+	// 		});
+	// 	});
+	// })
+
