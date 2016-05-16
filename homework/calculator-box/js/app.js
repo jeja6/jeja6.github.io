@@ -11,49 +11,68 @@
 // - .click()
 // - . text() or .html()
 // - .css()
-$(document).ready(function () {
+$(document).ready(function(){
 
+var total = 0 
 
+$('#a10').click(function(){
+	total = total + 10;
+	$('#out').html(total);
 
-function sumNumbers () {
-	var total;
-	$('#app').click(function() {
-		app = $(app).value("+10")= $('total').val(0);
-	$('#app').text(total + 10)	
-	
-	var count = $('reset').val(0); 
-	// var aBoxes = $('#a10').text
-	var aBoxes = $('#a20').val;
-	var aBoxes = $('#a30').val;
-	var bBoxes = $('#n10').val;
-	var bBoxes = $('#n20').val;
-	var bBoxes = $('#n30').val;
+});
 
-	var red = $('#red').val;
-	var blue = $('#blue').val;
+$('#n10').click(function(){
+	total = total - 10;
+	$('#out').html(total);
 
-	var outputStr = ""
+});
 
-$('#out').html(outputStr)
-}
+$('#a20').click(function(){
+	total = total + 20;
+	$('#out').html(total);
 
-})
+});
 
+$('#n20').click(function(){
+	total = total - 20;
+	$('#out').html(total);
 
-var editid;
-$("div.editable").click(function(e) {
-   editid = $(this).attr("id");
 }); 
 
+$('#a30').click(function(){
+	total = total + 30;
+	$('#out').html(total);
 
-// function addText () {
-  // var txt = $('#container').text()
-  // $('#container').text(txt + 'I have been added. Sweet!')
+});
 
-  // var reset = $('#app').text()
-	// $('#app').text(reset + 25)
+$('#n30').click(function(){
+	total = total - 30;
+	$('#out').html(total);
 
-	$('#output').html(outputStr)
+});
+
+$('#red').click(function(){
+	$('#out').css('background-color', 'red');
+});
+
+$('#blue').click(function(){
+	$('#out').css('background-color', 'blue');
+});
+
+$('#out').click(function(){
+	total = 0;
+
+	$('#out')
+		.css('background-color', 'white')
+		.html(total);
+
+
+	});
+
+});
+
+
+
 
 
 
